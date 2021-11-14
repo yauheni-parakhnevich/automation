@@ -68,12 +68,12 @@ flowers = [oleandrMoisture, olivaMoisture]
 fnt = ImageFont.truetype(os.path.join(fontdir, "HelveticaNeueCyr-Medium.ttf"), 80)
 fntHeader = ImageFont.truetype(os.path.join(fontdir, "HelveticaNeueCyr-Medium.ttf"), 20)
 
-humidityIcon = Image.open('BigScreen/images/humidity.png', 'r')
-temperatureIcon = Image.open('BigScreen/images/temperature.png', 'r')
-oliveIcon = Image.open('BigScreen/images/olive.png', 'r')
-oleandrIcon = Image.open('BigScreen/images/oleandr.png', 'r')
+humidityIcon = Image.open('images/humidity.png', 'r')
+temperatureIcon = Image.open('images/temperature.png', 'r')
+oliveIcon = Image.open('images/olive.png', 'r')
+oleandrIcon = Image.open('images/oleandr.png', 'r')
 
-levelIcons = [Image.open('BigScreen/images/level1.png', 'r'), Image.open('BigScreen/images/level2.png', 'r'), Image.open('BigScreen/images/level3.png', 'r'), Image.open('BigScreen/images/level4.png', 'r'), Image.open('BigScreen/images/level5.png', 'r')]
+levelIcons = [Image.open('images/level1.png', 'r'), Image.open('images/level2.png', 'r'), Image.open('images/level3.png', 'r'), Image.open('images/level4.png', 'r'), Image.open('images/level5.png', 'r')]
 
 size = (800, 480)
 cornersLeft = [(12, 20), (275, 20), (538, 20), (12, 250), (275, 250), (538, 250)]
