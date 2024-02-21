@@ -82,7 +82,7 @@ try:
     while True:
         try:
             logging.info("Connecting to the database")
-            client = InfluxDBClient(host='192.168.13.30', port=8086)
+            client = InfluxDBClient(host='automation.lan', port=8086)
             client.switch_database('garden')
 
             logging.info("Reading measures")
